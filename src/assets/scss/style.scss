@@ -1,0 +1,132 @@
+@import '~@core/scss/base/pages/dashboard-ecommerce.scss';
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input,.select {
+  background: #fff !important;
+}
+
+body{
+  background:#fff !important;
+}
+
+a{
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.container{
+  margin-top:50px;
+}
+
+.icon{
+  margin-right: 10px;
+}
+
+.breadcrumb{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding:10px;
+  padding-left: 30px;
+  background: #f5f5f5;
+  border: 1px #ddd solid;
+}
+
+.box{
+  overflow: hidden;
+  overflow-x: auto;
+  padding: 10px 30px 10px 30px;
+  background: #00bb8a !important;
+  z-index: 999;
+  border-radius: 10px !important;
+}
+
+.pagination{
+ margin-top: 10px !important;
+}
+
+.badges{
+  margin-right: 5px;
+}
+
+.loading{
+  padding: 20px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 17px;
+}
+.bg-blue{
+  background-color: #00bb8a !important;
+  color:#fff;
+}
+.table{
+  border: 1px #eee solid;
+}
+.page-title{
+  color: #fff;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header{
+  background: #00bb8a; 
+  padding: 20px;
+  font-size:20px;
+  color: #fff; 
+  position: relative
+}
+
+.header img{
+  top: 20px; 
+  right: 20px; 
+  position: absolute; 
+  width: 120px;
+}
+
+.node-right-icon{
+  background: url(../images/logo/signal.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+.leaf-icon{
+  background: url(../images/logo/daun.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  display: block;
+}
+.solar-icon{
+  background: url(../images/logo/solar-panel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+  display: block;
+}
+
+.btn-white{
+  color: #00bb8a !important;
+  border: transparent !important;
+  background: #fff !important;
+  font-weight: 600;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+  box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;;
+  padding-top: 10px;
+  padding-left: 10px;
+}

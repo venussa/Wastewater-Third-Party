@@ -1,0 +1,116 @@
+.page-full-background{
+    background: #00bb8a;
+    margin-bottom: -10px;
+    padding-bottom: 100px;
+}
+.title-section1{
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center; 
+    width: 100%; 
+    border-bottom: 2px #00bb8a solid;
+    padding-bottom:30px;
+    color: #00bb8a
+}
+.title-section2{
+    font-weight: 600;
+    color: #00bb8a;
+    width: 100%; 
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*----------------------------------------------------*/
+.pdf-section{
+    text-align: center; 
+    padding: 30px 0 10px 0
+}
+.pdf-section a{
+    border-radius: 15px;
+}
+/*----------------------------------------------------*/
+.navigation p{
+    margin-left: 20px;
+}
+.navigation p a{
+    color: #fff;
+}
+.navigation p span{
+    color: #fff;
+    font-weight: 600
+}
+/*----------------------------------------------------*/
+.chart-container{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.chart-container .heading{
+    border-top: 2px #00bb8a solid;
+}
+.chart-container .heading .title-section2{
+    margin-bottom: 20px;
+}
+
+.chart-container .heading .input-chart-type{
+    border: 1px #00bb8a solid;
+    display: inline-block; 
+    width: 130px;
+}
+
+.chart-container .heading .input-chart-date input{
+    border: 1px #00bb8a solid; 
+    display:inline-block;
+    width: 150px
+}
+.chart-container .heading .input-chart-date select{
+    border: 1px #00bb8a solid;
+    display: inline-block; 
+    width: 100px;
+}
+.btn-filter{
+    margin-left:10px;
+    position: relative; 
+    top:-2px;
+    padding: 11px
+}
+.chart-label{
+    margin-top: 20px;
+    padding-bottom: 40px; 
+    position: relative
+}
+.chart-label .y{
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); 
+    position: absolute; 
+    left:-30px; top: 160px
+}
+.chart-label .x{
+    position: absolute;
+    bottom: -10px; 
+    text-align: center; 
+    width: 100%
+}
+/*----------------------------------------------------*/
+.datatable{
+    margin-bottom: 40px;
+    border-top: 2px #00bb8a solid;
+}
+.datatable .table-filter-status{
+    padding:10px; 
+    padding-left: 0px;
+    margin-top: 15px;
+}
+.datatable .table-filter-status span{
+    margin-right:10px;
+    cursor: pointer;
+}
+.datatable .table-filter-date{
+    margin-top: 15px;
+    text-align: right
+}
+.datatable .table-filter-date .form-control{
+    display:inline-block;
+    width: 150px; 
+    background: #fff; 
+    border: 1px #00bb8a solid;
+}
